@@ -6,39 +6,6 @@ html,body{
 	overflow-x: hidden;
 	background: #f5f5f5;
 }
-#rainbow-lines{
-	position: absolute;
-	top: 0;
-	left: 0;
-	background: black;
-	z-index: -100;
-}
-#navrow {
-	position: absolute;
-	bottom: -20px;
-	width: 100%;
-	background: rgba(0, 0, 0, 0.5);
-}
-.header .content{
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 100%;
-	width: 100%;
-	display:flex;
-	justify-content:center;
-	align-items:center;
-	text-align: center;
-}
-.header .content img{
-	height: 275px;
-} 
-@media screen and (min-width: 768px){
-	.header .content h4{
-		position: absolute;
-		bottom: 120px;
-	} 
-}
 @media screen and (max-width: 768px){
 	.header .content h4{
 		position: absolute;
@@ -50,58 +17,4 @@ html,body{
 		position: absolute;
 		bottom: 50px;
 	} 
-}
-
-.hidden{
-	display: none;
-}
-
-.page-content {
-	min-height: 300px;
-}
-
-.progress{
-	transform: translateY(-14px);
-	opacity: 0;
-	transition: opacity 500ms linear;
-}
-
-.tabs .tab a{
-	color:#81c784;
-	font-weight: bold;
-}
-.tabs .tab a:hover,.tabs .tab a.active {
-	background-color:transparent;
-	color:#42a5f5;
-}
-.tabs .tab.disabled a,.tabs .tab.disabled a:hover {
-	color:rgba(102,147,153,0.7);	
-}
-.tabs .indicator {
-	background-color:#42a5f5;
-}
-
-.chips.focus {
-    border-bottom: 1px solid #42a5f5;
-    -webkit-box-shadow: 0 1px 0 0 #42a5f5;
-    box-shadow: 0 1px 0 0 #42a5f5;
-}
-
-.chips .chip.selected {
-	background-color:#42a5f5;
-}
-
-.chip.highlight {
-	background-color: #42a5f5;
-	color: #fff;
-}
-img.hoverable.circle{
-	padding: 5px;
-}
-a .row.member{
-	margin-bottom: 5px;
-}
-
-blockquote{
-	border-left: 5px solid #42a5f5;
 }
