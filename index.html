@@ -7,8 +7,10 @@
 	<meta name="description" content="Página do casamento de Marillia e Jefferson">
 	<meta name="keywords" content="Pessoal, casamento">
 	<meta name="author" content="Luiz Eduardo Ximenes Neto">
-	<link rel="shortcut icon" href="http://www.ximenes.tk/img/Luiz.png" type="image/png">
+	<link rel="shortcut icon" href="img/rings.png" type="image/png">
 
+	<link rel="stylesheet" href="owl.carousel/dist/assets/owl.carousel.min.css" />
+	<link rel="stylesheet" href="owl.carousel/dist/assets/owl.theme.default.min.css" />
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
 	<link rel="stylesheet" href="css/style.css">
@@ -54,7 +56,7 @@
 				<ul class="pagination">
 					<li class="waves-effect">
 						<a href="#!">
-							<i class="material-icons">chevron_left</i>
+							<i class="material-icons history-previous">chevron_left</i>
 						</a>
 					</li>
 					<li>
@@ -62,7 +64,7 @@
 					</li>
 					<li class="waves-effect">
 						<a href="#!">
-							<i class="material-icons">chevron_right</i>
+							<i class="material-icons history-next">chevron_right</i>
 						</a>
 					</li>
 				</ul>
@@ -73,7 +75,17 @@
 			</div>
 		</div>
 		<div id="pictures" class="page-section scrollspy">
-			<div class="container" style="min-height: 500px"></div>
+			<div class="container">
+					<div class="owl-carousel owl-theme">
+						<a class="waves-effect hoverable"><img style="width:320px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=1" data-src-retina="https://placehold.it/350x250&text=1-retina" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:420px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=2" data-src-retina="https://placehold.it/350x250&text=2-retina" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:300px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=3" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:270px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=4" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:320px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=5" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:290px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=6" alt=""></a>
+						<a class="waves-effect hoverable"><img style="width:220px; height: 200px;" class="owl-lazy" data-src="https://placehold.it/350x250&text=7" alt=""></a>
+					</div>
+			</div>
 		</div>
 		<div id="gifts" class="page-section scrollspy">
 			<div class="container" style="min-height: 500px"></div>
@@ -128,6 +140,7 @@
 	</div>
 	<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script src="owl.carousel/dist/owl.carousel.min.js"></script>
 	<script src="js/js.js"></script>
 </body>
 

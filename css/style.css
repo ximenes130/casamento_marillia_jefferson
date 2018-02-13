@@ -75,6 +75,10 @@ ul.pagination h3 {
 	margin:0px;
 }
 
+.owl-carousel .owl-stage-outer{
+    padding-bottom: 20px;
+}
+
 @media screen and (max-width: 768px){
 	.header .content h4{
 		position: absolute;

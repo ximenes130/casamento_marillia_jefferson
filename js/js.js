@@ -1,14 +1,16 @@
-$(document).ready(function () {
-	var nav = $('nav')
-	
-	$('.scrollspy').scrollSpy({scrollOffset: 70});
-	$('.parallax').parallax();
+// Initializing variables
 
-	nav.pushpin({
-		top: nav.offset().top
-	});
-
-});},
+var Animations = {},
+	owlData = {
+		loop: true,
+		margin: 10,
+		center:true,
+		autoWidth:true,
+		lazyLoad:true,
+		responsive: {
+			0: {
+				items: 1
+			},
 			600: {
 				items: 3
 			},
@@ -16,6 +18,7 @@ $(document).ready(function () {
 				items: 5
 			}
 		}
+	}
 
 
 // Initializing plugins
