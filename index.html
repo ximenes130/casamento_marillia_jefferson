@@ -16,7 +16,7 @@
 </head>
 
 <body>
-	<div class="header">
+	<div id="" class="header scrollspy">
 		<div class="header-background">
 			<div class="parallax-container">
 				<div class="parallax">
@@ -35,7 +35,7 @@
 	<nav>
 		<div class="nav-wrapper red lighten-3">
 			<a href="#" class="brand-logo right black-text">Logo</a>
-			<ul id="nav-mobile" class="left hide-on-med-and-down">
+			<ul id="nav-mobile" class="left">
 				<li>
 					<a href="#history" class="black-text">Hitória do casal</a>
 				</li>
@@ -50,24 +50,26 @@
 	</nav>
 	<div id="page-content" class="page-content">
 		<div id="history" class="page-section scrollspy">
-			<div class="container" style="min-height: 500px">
-				<h1>blahs</h1>
-				<p class="range-field" list="tickmarks">
-					<input type="range" id="test5" min="0" max="100" step="10"/>
-					<datalist id="tickmarks">
-							<option value="0" label="0%">
-							<option value="10">
-							<option value="20">
-							<option value="30">
-							<option value="40">
-							<option value="50" label="50%">
-							<option value="60">
-							<option value="70">
-							<option value="80">
-							<option value="90">
-							<option value="100" label="100%">
-						  </datalist>
+			<div class="container center-align">
+				<ul class="pagination">
+					<li class="waves-effect">
+						<a href="#!">
+							<i class="material-icons">chevron_left</i>
+						</a>
+					</li>
+					<li>
+						<h3 class="grey-text text-darken-3">Testeeee</h3>
+					</li>
+					<li class="waves-effect">
+						<a href="#!">
+							<i class="material-icons">chevron_right</i>
+						</a>
+					</li>
+				</ul>
+				<p class="range-field">
+					<input type="range" id="history-range" value="0" min="0" max="10" step="1" />
 				</p>
+				<p class="flow-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eleifend felis vel consectetur tincidunt. Quisque sed sagittis dolor. Etiam gravida metus sit amet urna fermentum, ut auctor turpis porttitor. Praesent at elit nec erat interdum maximus sit amet a nulla.</p>
 			</div>
 		</div>
 		<div id="pictures" class="page-section scrollspy">

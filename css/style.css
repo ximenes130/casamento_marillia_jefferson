@@ -44,12 +44,13 @@ nav, .pin-top{
 	top: 0px !important;
 }
 
+#nav-mobile .active {
+	background-color: rgba(0,0,0,0.1);
+}
+
 .page-content {
 	position: absolute;
 	top: 100vh;
-	width: 100%;
-}
-.page-content * {
 	width: 100%;
 }
 
@@ -58,8 +59,20 @@ nav, .pin-top{
 }
 
 .page-content .page-section {
-	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+ul.pagination * {
+	height: 45px;
+}
+
+ul.pagination i {
+	margin: 8.5px 0px;
+}
+
+ul.pagination h3 {
+	margin:0px;
 }
 
 @media screen and (max-width: 768px){
