@@ -79,6 +79,10 @@ ul.pagination h3 {
     padding-bottom: 20px;
 }
 
+#picture-main {
+	transition: height 1s ease-in-out;
+}
+
 @media screen and (max-width: 768px){
 	.header .content h4{
 		position: absolute;

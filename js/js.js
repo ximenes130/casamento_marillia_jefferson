@@ -5,7 +5,7 @@ var Animations = {},
 		loop: true,
 		margin: 10,
 		center:true,
-		autoWidth:true,
+	    //   autoWidth:true,
 		lazyLoad:true,
 		responsive: {
 			0: {
@@ -33,17 +33,22 @@ $(document).ready(function() {
 				top: nav.offset().top
 			});
 
-			$(".owl-carousel").owlCarousel(owlData);
-
+			$('.owl-carousel').owlCarousel(owlData)
 			$('.history-next').click(historyNext)
+			$('#pictures .owl-carousel img').click(picturesItemClick)
 		});
 
 
 // Handling events
 
 function historyNext() {
-	Animations.exitRight("#history .flow-text, #history h3")
-	Animations.enterLeft("#history .flow-text, #history h3")
+	Animations.exitRight('#history .flow-text, #history h3')
+	Animations.enterLeft('#history .flow-text, #history h3')
+}
+
+function picturesItemClick(event) {
+	var src = $(event.target).attr('data-src')
+	$('#picture-main').attr('src', src)
 }
 
 
